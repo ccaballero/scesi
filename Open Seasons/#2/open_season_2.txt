@@ -1,0 +1,22 @@
+EXPOSITOR: 
+ 
+Ubaldino Zurita
+Experto en la remasterización de sistemas operativos. 
+Es una persona que no duda que el uso del software libre es la solución a cualquier
+tipo de problema. Es un activista neto de GNU/Linux, fascinado por la convicción de compartir,
+y mejorar código.
+ 
+Actualmente pertenece a la sociedad científica de estudiantes de sistemas e informática (SCESI), perteneciente a la Universidad Mayor de San Simón, estudia en la carrera de Lic. Ing. Informática,
+usa el software libre hace 10 años.
+ 
+METADISTRIBUCION
+ 
+¿Como descargar los paquetes instalación?
+¿Como compilar el kernel?
+¿Como instalar un GNU/Linux base?
+¿Como modificar la lista de los repositorios?
+¿Como instalar herramientas para preparar el remasterizado?
+¿Como preparar la imagen?
+¿Como modificar las interfaces gráficas?
+¿Como modificar el proceso de instalación?
+¿Como modificar la interfaz del proceso de instalación?

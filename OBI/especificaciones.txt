@@ -1,0 +1,28 @@
+Especificaciones técnicas del logotipo de la OBI. 
+
+
+DATOS DE FUENTE:
+
+TIPO DE FUENTE: Cambria
+TAMAÑO: 115 pt
+LINE HEIGHT: 102 pt
+KERNING: -27 [pt?]
+
+LLAVES:
+TIPO DE FUENTE: ~EucrosiaUPC, diferencia infinitesimal
+TAMAÑO: 610 pt
+COLOR: #2A63A8
+
+
+O: (Individual)
+TIPO DE FUENTE: Agency FB
+		BOLD
+TAMAÑO: 370 pt
+COLOR: #2A6429 
+
+
+I: (Individual)
+TIPO DE FUENTE: Agency FB, modificada manualmente
+		BOLD
+TAMAÑO: 370 pt
+COLOR: #E42817

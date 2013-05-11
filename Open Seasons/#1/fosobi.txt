@@ -1,0 +1,78 @@
+FOSOBI
+- Nacimiento         
+- Por qué FOSOBI?
+- Misión y visión      
+- Objetivo              
+- Características   
+
+Nacimiento
+Nace de la idea de un integrante de la SCESI el cual propuso la creación de una remasterización de Ubuntu.
+Detectamos la necesidad de realizar este remasterizado, ya que en anteriores OBI encontramos limitaciones acerca de la distribución original de Ubuntu que se
+utilizó para la capacitación de los estudiantes.
+
+Inconvenientes con una distribución original
+No viene incorporado con la interfaz Gnome-Shell, que es evaluada en las olimpiadas.
+Los paquetes de ofimática, no están completos.
+Carece de codecs para multimedia.
+No tiene compilador de C++.
+
+Los estudiantes no se sintieron atraidos al uso del software libre, debido
+a la complejidad de las configuraciones requeridas en la distribucion original.
+
+¿Por que?
+Fácil manejo.
+Inclusión de IDE's y los compiladores requeridos específicamente para las olimpiadas.
+Multimedia listo para usar.
+Juegos educativos y recreativos.
+Configuración regional adecuada.
+
+incluidos programas para mensajeria instantanea.
+Incluidos los navegadores mas populares.
+incluye los codecs necesarios para el uso facil de
+multimedios.
+
+FOSOBI
+
+FOS -> remasterizado scesi.
+OBI -> olimpiadas bolivianas de informática.
+
+Mision:
+FOSOBI provee todas las herramientas y configuraciones
+necesarias para el uso fácil de los estudiantes, reduciendo el temor
+hacia el uso de software libre.
+
+
+Vision:
+Mejorar el remasterizado para el uso de toda la comunidad estudiantil,
+incluidos niveles escolares y universitarios, fomentando el uso y participación
+en el software libre.
+
+Objetivos:
+Se pretende utilizar en la OBI 2013, para asi facilitar el aprendizaje, y equilibrar
+el uso de los sistemas operativos Windows y GNU/Linux, con el uso de
+herramientas educativas que fomenten la investigación y aprendizaje de los
+estudiantes.
+
+Caracteristicas:
+- Proceso de instalación mejorado (configuraciones regionales e idiomas adecuados).
+- Uso amigable con gnome-shell como escritorio por defecto.
+- Utilidades similares a las provistas por el sistema operativo Windows.
+- Instalacion de los programas mas comunes necesarios para la comunidad estudiantil,
+- PackOBI, es el conjunto de programas requeridos para la realización de las
+   olimpiadas bolivianas de informática.
+- Soporte tecnico accesible via online, por parte de una creciente comunidad.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

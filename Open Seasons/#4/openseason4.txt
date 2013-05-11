@@ -1,0 +1,7 @@
+
+1. babel, sus funciones y deseos primigenios.
+
+2. vladwelt y sus expresiones regulares.
+
+3. ventajas de usar un control de versiones.
+

@@ -1,0 +1,61 @@
+ADMISIÓN POSTULANTES SCESI
+
+La Sociedad Cientifica de Estudiantes de Sistemas e Informática - SCESI, convoca a todos los estudiantes interesados que desean postularse para la convocatoria 2013.
+
+Para esto deberán presentar los siguientes requisitos:
+
+a) Presentar una fotocopia de Carnet de Identidad.
+b) Ser estudiante, y estar actualmente inscrito en la cualquier carrera de la UMSS, presentando una
+    fotocopia de matrícula de la gestión I/2013.
+c) Presentar solicitud escrita dirigida a la comisión de admisión de la SCESI, en la cual se tiene que
+    especificar los siguientes puntos:
+
+    1) Mencionar si tiene una disponibilidad minima de 8 horas/semanales para la capacitación e
+        investigación dentro de la sociedad científica.
+    2) Proponer un documento adjunto de un proyecto o un tema de investigación, ya
+        sea individual o colectivo en el área de Sistemas-Informática en la que trabajará en el semestre.
+    3) Mencionar las areas que le interesan en el area de sistemas e informática.
+	Areas de elección para la evaluación de los postulantes a la SCESI:
+	- Programación Web
+	- Diseño web
+	- Programación Funcional
+	- Programación Movil
+	- Marketing
+	- Software Libre
+	- GNU/Linux
+	- Seguridad Informática
+	- Base de Datos
+	- Programación en Java
+	- Servidores
+	- Electrónica Básica
+
+    4) Mencionar por que decidio postularse a la SCESI.
+    
+
+e) Tener disponibilidad de tiempo para asistir a todas las reuniones en el semestre 1/2013, las
+    reuniones se realizan una vez a la semana los dias jueves de 14:15 a 17:15 pm. Según la
+    disponibilidad de los integrantes.
+
+DE LA FORMA
+Presentación de la documentación foliada y engrampada:
+
+DE LA FECHA Y LUGAR
+La documentación deberá ser presentada hasta horas 20:15 del día 28 de Marzo del 2013, en la Sociedad científica con cualquiera de sus integrantes.
+
+CRONOGRAMA
+
+	Publicación de convocatoria 							08 de Marzo de 2013
+	Presentación de documentos 							hasta el 28 de Marzo de 2013
+	Reunion informativa(open season - auditorio MEMI - 14:30)	15 de Marzo de 2013
+	Entrevistas										del 01 al 05 de Abril de 2013
+	Publicación de Resultados 							09 de Abril de 2013
+
+VALORES DESEABLES DEL POSTULANTE
+
+	Durante el proceso de evaluación se tomara en cuenta los siguientes puntos:
+	- Tener conocimiento sobre la filosofía del software libre.
+	- Apoyar a los proyectos.
+	- Tener ganas de aprender e investigar.
+	- Trabajo en equipo.
+	- Compartir conocimiento.
+	- Disponibilidad de tiempo. 
