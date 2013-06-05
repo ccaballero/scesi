@@ -1,0 +1,37 @@
+HTML5 y CSS3
+  INTRODUCCION - 
+Cada dia hay mas personas y profesionales que se interesan por el "Desarrollo Web", las cuales se preguntan por donde empezar? que lenguaje utilizar? Y que alternativas tienen a su alcance respecto a la constante evolucion de la tecnologia O.o?
+Para ello emplearemos el uso del nuevo concepto de HTML5 y CSS3, que no es una nueva version del antiguo lenguaje de etiquetas, ni siquiera una mejora de esta tecnologia; sino un nuevo concepto para la construccion de Sitios Web y aplicaciones en una era que combina dispositivos moviles, computacion en la nube y trabajos en red.
+
+  ESTRUCTURA [Nuevas Etiquetas]
+    HTML5 provee basicamente tres caracteristicas: Estructura, estilo y
+    funcionalidad, en si una combinacion entre HTML, CSS3 y Javascript.
+
+    <!DOCTYPE html>
+      <html lang = "es">
+        <head>
+          <meta charset = "UTF-8" />
+          <meta name = "description" content = "Ejemplo de HTML5" />
+          <meta name = "keywords" content = "HTML5, CSS3"/>
+          <title>Mi primera pagina en html5</title>
+        </head>
+
+        <body>
+          <header>
+            Logo y titulo de la cabecera del documento web
+          </header>
+
+          <nav>Menu de navegacion</nav>
+         
+         <section>Informacion Principal del documento web</section>
+
+         <aside>Barra Lateral con informacion no relevante</aside>
+
+         <footer>Pie de pagina del documento web</footer>
+        </body>
+      </html>
+
+
+  CSS3 [Etiquetas nuevas]
+En esta parte veremos las nuevas funcionalidades que nos provee CSS3 pero de una manera sencilla dando asi una introduccion a este estilo, veremos un poco de animaciones, fuentes, etc.
+Tambien veremos la compatibilidad con los navegadores actuales y algunos tips para poder visualizarlos en navegadores antiguos y tb hablaremos del dolor de cabeza e innombrable [I.......E.......] :D
