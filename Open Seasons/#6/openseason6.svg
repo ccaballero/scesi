@@ -46,10 +46,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.46182777"
-     inkscape:cx="439.72273"
-     inkscape:cy="561.82371"
+     inkscape:cx="342.49757"
+     inkscape:cy="441.17151"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:showpageshadow="false"
      borderlayer="false"
@@ -89,8 +89,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-62.362183)"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <path
        sodipodi:type="star"
        style="opacity:0.5;fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
@@ -800,8 +799,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="letras"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
@@ -896,7 +894,6 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="open"
-     sodipodi:insensitive="true"
      style="display:inline">
     <text
        xml:space="preserve"
@@ -927,8 +924,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="lines"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Agate;-inkscape-font-specification:Agate"
@@ -943,7 +939,7 @@
          sodipodi:role="line"
          x="77.872391"
          y="833.55975"
-         id="tspan4577">Viernes 07 de Junio</tspan><tspan
+         id="tspan4577">Viernes 14 de Junio</tspan><tspan
          sodipodi:role="line"
          x="77.872391"
          y="856.05975"
