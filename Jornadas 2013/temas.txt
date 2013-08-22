@@ -1,0 +1,114 @@
+Expositores
+Yony Montoya
+Titulo Charla: Tendencias en Informática Forense
+
+
+
+helga rifarachi
+Título de la ponencia: "El secreto de un Programa de computación"
+
+Carrera Profesional:
+Maestría en Administración y Gerencia (España - Madrid)
+Especialidad en Propiedad Intelectual (Suiza - Ginebra)
+Fundadora del Servicio Nacional de Propiedad Intelectual en Cochabamba
+Ex-Responsable del "SENAPI" de Cochabamba (2003-2010)
+Docente de Pos grado la Universidad Mayor de San Simón en la Facultad de Derecho.
+Docente de Pos grado y Pre grado de la Universidad Privada de Bolivia
+Escritora de varios artículos en Propiedad Intelectual.
+Directora Jurídica de la consultora "Riffarachi &amp; Asociados".
+
+alvaro andrade
+
+Titulo Charla: NMap Professional Pentester
+
+Descripción: Todo buen pentester sabe que el éxito de una intrusión depende de la cantidad y calidad de información que pueda recolectar del objetivo donde la sección de escaneo de puertos y servicios activos, más la identificación de sistema operativo y aplicaciones ejecutándose en la víctima, vienen a ser los puntos clave para el éxito del trabajo.
+
+
+Cristhian mamani
+Titulo Charla: Seguridad en Drupal
+
+
+lorgio lazarte
+PAIS: Bolivia
+
+Ingeniero de Sistemas Titulado en la Universidad Mayor de San Simón, estudios culminados en la Maestría Seguridad de la información en la Escuela Militar de Ingeniería.
+
+Lleva más de 7 años dedicado a la seguridad Informática, certificado como auditor Interno en la Norma ISO/IEC 27001, realizando con éxito procesos de adecuación y certificación, conocimientos sólidos en Ethical Hacking de acuerdo a las metodologías de aplicación, análisis informático forense, gestión de sistemas operativos Linux/Windows, DBA Security testing Oracle, ISO/IEC 20000,  realizando constantemente procesos de actualización de conocimientos técnicos, metódicos como legales en el ámbito tecnológico.
+
+Publicaciones de seguridad informática realizada en Boletines Ehacking, docente del Diplomado de seguridad Informática basado en la ISO 27001 en la Universidad Privada de ciencias administrativas - UCATEC gestión 2010,  Docente de pregrado UCATEC gestión 2011-2012, consultor de seguridad informática en entidades financieras, brindando charlas y conferencias en distintas instituciones y eventos de seguridad de la información, actualmente desempeñando sus funciones como Administrador Nacional de seguridad informática en la empresa de telecomunicaciones Nuevatel PCS de Bolivia VIVA.
+
+Categoría: Ponentes
+
+ABSTRACT
+
+CONFERENCIA: Identi-key autenticacion segura la llave de todo acceso, bastara solo tu usuario y contraseña.
+
+La autenticación es el proceso de verificación de una afirmación que se hace relativa a una identidad, tradicionalmente la gran demanda para soluciones de autenticación seguras ha provenido de empresas que buscaban satisfacer sus propias necesidades de seguridad al interior de sus organizaciones, asi como también a sistemas gubernamentales en contextos donde la seguridad nacional estaba en juego, de igual manera esto se amplió a su uso en acceso a sistemas de todo índole, entidades bancarias, sistemas de acceso corporativo entre otros.
+
+En los últimos años, la demanda por soluciones de autenticación segura han estado en aumento en todos los otros tipos de contexto que afectan directamente la privacidad de los individuos en una escala inimaginable en la última década. Mucho de esto es provocado por la creciente popularidad de la Internet y de las redes de comunicaciones móviles, así como del rápido incremento en la cantidad de PCs y de dispositivos de información tales como teléfonos móviles con capacidades Web y las computadoras portátiles.
+De ahí la importancia de conocer y ver de aplicar medios adicionales que den mayor nivel de seguridad a los procesos de autenticación que van desde un simple captcha para evitar el uso de scripts automatizados de llenado de formularios como medios de autenticación de doble factor a través de dispositivos adicionales para certificar con una seguridad razonable que quien se está conectando es quien dice ser.
+
+
+Antonio rosales
+Tema:  Inyectando Codigo.
+
+
+-------------------------------------------------------------------------------
+Para Afiche
+Expositores y breve resumen:
+
+Lic. Yony Richard Montoya Burgos
+Titulo Charla: Tendencias en Informática Forense.
+Docente UMSS
+
+Mgr. Riffarachi Z., Helga
+Título de la ponencia: "El secreto de un Programa de computación"
+Maestría en Administración y Gerencia (España - Madrid)
+Especialidad en Propiedad Intelectual (Suiza - Ginebra)
+
+Drupal Bolivia
+Titulo Charla: Seguridad en Drupal.
+
+Ing. Lazarte Zurita Lorgio Alexander
+Titulo Charla:  Identi-key autenticacion segura la llave de todo acceso, bastara solo tu usuario y contraseña.
+Administrador Nacional de seguridad informática - Nuevatel PCS de Bolivia VIVA.
+Docente Diplomado Seguridad Informatica.
+
+Luis Antonio Rosales Marcó
+Tema:  Inyectando Codigo.
+Consultor Senior en Seguridad de la Informacion CosimTI
+Lider del Capitulo OWASP en Bolivia
+
+Gonzalo Nina Mamani
+Titulo Charla: Explotacion de Navegadores.
+Consultor Independiente de Seguridad de la Informacion.
+Fundador de 0xsecurity
+
+----------------Aun por confirmar por cambios de fechas----------
+Ing. Alvaro xavier andrade sejas
+Titulo Charla: NMap Professional Pentester
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></body></html>

@@ -1,0 +1,13 @@
+El Efecto Invernadero Producido por el CO2 Atmosférico
+J. L. Mamani
+Físico, estudiante; Universidad Mayor de San Simón; auxiliar.
+
+Las causas del cambio climático y sus efectos en los procesos ecológicos en nuestro país, han permitido mejorar nuestra comprensión del fenómeno. Sin embargo, hay evidencias de que los modelos actuales no siempre logran simular los cambios.
+
+JAVA CODE CONVENTION
+Univ. Jose Valdivia.
+Las convenciones de código son la mejor manera de asegurar la legibilidad de nuestros programas, lo cual es importantísimo cuando trabajamos en un equipo y muy importante también cuando trabajamos solos.
+
+CONOCIENDO GPT
+Univ. Ubaldino Zurita.
+Esta de moda que las laptops de esta epoca venga con la tabla de particiones gpt y creo ahora que llego la hora de conocer un poco sobre este esquema de particiones que puede ocasionarte dolores de cabeza, pero a la vez conocer de su funcionamiento.
