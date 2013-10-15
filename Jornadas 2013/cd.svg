@@ -28,10 +28,10 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.25"
-     inkscape:cx="162.42106"
+     inkscape:cx="60.82106"
      inkscape:cy="225.68493"
      inkscape:document-units="pt"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer4"
      id="namedview2989"
      showgrid="false"
      units="cm"
@@ -53,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -465,8 +465,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="letras"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <path
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
@@ -488,7 +487,7 @@
        transform="translate(-2,0)"><textPath
          xlink:href="#path5312"
          id="textPath5318"
-         style="font-size:24px;font-weight:normal;-inkscape-font-specification:Helvetica Neue">III Jornadas Nacionales de Seguiridad Informática</textPath></text>
+         style="font-size:24px;font-weight:normal;-inkscape-font-specification:Helvetica Neue">III Jornadas Nacionales de Seguridad Informática</textPath></text>
   </g>
   <g
      transform="translate(0,0.19669938)"
