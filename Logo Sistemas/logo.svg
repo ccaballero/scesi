@@ -17,7 +17,10 @@
    inkscape:version="0.48.4 r9939"
    version="1.0"
    sodipodi:docname="Heptágono_regular.svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/jacobian/Scesi/Logo Sistemas/Heptágono_regular.png"
+   inkscape:export-xdpi="200"
+   inkscape:export-ydpi="200">
   <defs
      id="defs4">
     <pattern
@@ -77,7 +80,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
+     inkscape:zoom="0.7071068"
      inkscape:cx="342.25201"
      inkscape:cy="213.63436"
      inkscape:document-units="px"
@@ -107,6 +110,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2240,7 +2244,7 @@
            sodipodi:cy="288.22153"
            sodipodi:rx="23.688078"
            sodipodi:ry="23.688078"
-           d="m 115.25841,288.22153 a 23.688078,23.688078 0 1 1 -47.37616,0 23.688078,23.688078 0 1 1 47.37616,0 z"
+           d="m 115.25841,288.22153 c 0,13.08256 -10.60552,23.68808 -23.688082,23.68808 -13.082564,0 -23.688078,-10.60552 -23.688078,-23.68808 0,-13.08257 10.605514,-23.68808 23.688078,-23.68808 13.082562,0 23.688082,10.60551 23.688082,23.68808 z"
            transform="matrix(0.38384176,0,0,0.38384176,567.36315,209.3107)" />
       </g>
     </g>
