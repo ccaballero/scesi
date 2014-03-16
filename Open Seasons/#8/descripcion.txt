@@ -1,10 +1,22 @@
 Open Season #8
 
-Ubaldino Zurita
-Processing
+APACHE CORDOBA
 
-Carlos Caballero
-Javascript
+Apache Cordova ofrece un entorno de desarrollo basado en tecnologías web como HTML5, CSS3 y JAVASCRIPT. Lo que es ideal para desarrolladores web que quieren migrar o conocer las bondades de las aplicaciones móviles.
 
-Juan Pablo Mejia
+ANGULARJS
+HTML enhanced for web apps!
+
+Explicaremos qué es AngularJS y cómo intenta dinamizar los documentos HTML mediante la vinculación data binding del modelo de datos con componentes de la vista mediante un ejemplo.
+
+Ademas veremos MVC del lado del cliente (navegador web).
+
+Twitter Bootstrap
+============
+
+¿Necesitas una plantilla web limpia y de forma rápida? ¿Te viste a ti mismo googleando para ver como tratar con pestañas, menus, popups, formularios y otros componentes? ¿Encontraste varios demos y extrajiste lo básico para comenzar?. Si en asi, entonces Twitter Bootstrap puede ser util para ti. Esta es una herramienta para la construcción de sitios web que pueden verse consistentemente en navegadores de escritorio, smarthphones, tablets, y mas.
+
+Fuente: http://www.codeproject.com/Articles/506653/Create-Clean-Webpages-with-Twitter-Bootstrap
+
+
 
