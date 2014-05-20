@@ -1,0 +1,210 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+
+\usepackage{rotating}
+\usepackage{multirow}
+
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+
+\usepackage[
+pdfauthor={Carlos Eduardo Caballero Burgoa},%
+pdftitle={Reporte servidor},%
+colorlinks,%
+citecolor=black,%
+filecolor=black,%
+linkcolor=black,%
+urlcolor=black
+pdftex]{hyperref}
+
+\title{Reporte Servidor}
+\author{Carlos Eduardo Caballero Burgoa}
+
+\begin{document}
+\maketitle
+
+\section{Introducción}
+El presente reporte tiene por objetivo describir todas las actividades que se
+realizaron alrededor del servidor prestado por Jala, por intermedio de la
+carrera de Informática.
+
+Inicialmente se discuten los entresijos para poner la maquina en funcionamiento,
+se finaliza el documento describiendo los servicios que presto, y los
+incovenientes actuales que posee.
+
+\section{Descripción del equipo}
+El equipo donado es una \emph{HP NetServer LPr} con las siguientes
+caracteristicas:
+\begin{itemize}
+\item Intel Pentium III, con dos procesadores.
+\item Memoria RAM de 1 GiB.
+\item Dos discos duros SCSI de 20 GiB cada uno, con soporte para RAID.
+\item Tarjeta de red Ethernet.
+\end{itemize}
+
+\section{Instalación}
+Si bien podriamos mencionar que el servidor, es aún completamente funcional,
+notamos un conjunto de barreras que dificultaron el trabajo, se hicieron dos
+intentos de instalación, descritos a continuación:
+
+\subsection{1º Intento (FreeBsd 8.2)}
+Desde un comienzo se intento instalar FreeBSD 8.2 en la maquina, y en ese
+momento notamos algunos problemas, sospechamos a un inicio del cd de instalación
+o del lector, pero despues de probar con multiples copias, descubrimos que el
+lector aún funciona, aunque puede no estar en sus mejores años.
+
+Solventada la anterior intención, minimizando el uso del lector, con una
+instalacion minimal, terminamos la instalación. Lo que nos llevo a nuestra
+siguiente contingencia, el sistema se reiniciaba despues de un tiempo, sin
+poderse determinar la causa exacta.
+
+Partiendo de ese punto comenzamos a sospechar de algun componente de hardware,
+principalmente de las RAM, cabe mencionar que la maquina posee 4 tarjetas tipo
+DIM de 256 megabytes, para comprobar nuestra hipotesis, probamos las memorias
+una por una.
+
+Resultado de esto concluimos que 2 tarjetas funcionan correctamente, 1 de ellas
+hizó el sistema extraordinariamente lento, y la 4ª reiniciaba el sistema despues
+de un tiempo.
+
+Tales experimentos nos llevaron a concluir que dos de ellas tenian sectores
+defectuosos, que cuando el sistema operativo requiere esos puntos, ocasiona un
+error de desbordamiento.
+
+Una vez determinadas las memorias RAM, se reacomodaron de modo que se dio
+prioridad a las que funcionaban correctamente, luego las memorias defectuosas,
+despues de esto el sistema funcionaba correctamente a usos de tareas que no
+requerian mucha carga en RAM; viendo la infame situacion se intento buscar una
+solucion, para reutilizar las memorias defectuosas sin el riesgo de colgar el
+sistema.
+
+Se encontraron 2 metodos utiles, que funcionan con metodos muy parecidos
+(basicamente implica señalar al kernel del sistema operativo los sectores
+dañados de la RAM para que no los utilize), lamentablemente ambos metodos solo
+funcionan con nucleos Linux, no encontrando nada similar para FreeBSD.
+
+Y es asi que despues de tantas idas y venidas, iniciamos la instalacion de una
+distribución Linux, considerando las apretadas restricciones de hardware en las
+que nos encontramos, en la seleccion se priorizo la versatilidad ante otros
+factores, es asi como llegamos a instalar Gentoo Linux (sin mencionar la
+terrible obsesion del escritor por tal distribucion).
+
+\subsection{2º Intento (Gentoo Linux)}
+Una vez copiados los archivos e instalados todos los paquetes, se utilizó el
+programa memtest86 para evaluar los sectores defectuosos de RAM siguiendo
+patrones BADRAM, dando los siguientes resultados:
+
+Despues de compilado un nucleo de linux personalizado para el hardware presente,
+en otro ordenador, este se porto al servidor, colocando los parametros de badram
+al nuevo kernel, terminando de esa manera la instalacion del nuevo servidor.
+
+\subsection{Hardware presente}
+Debido al alto grado de personalizacion que posee el nucleo compilado, se
+detallan aqui los resultados del comando lspci, que nos muestra los componentes
+de hardware y sus componentes de linux requeridos para funcionar.
+
+\small
+\begin{verbatim}
+00:00.0 Host bridge:
+    Intel Corporation 440BX/ZX/DX - 82443BX/ZX/DX Host bridge
+        (AGP disabled) (rev 03)
+    Flags: bus master, medium devsel, latency 64
+    Memory at <unassigned> (32-bit, prefetchable)
+
+00:04.0 ISA bridge:
+    Intel Corporation 82371AB/EB/MB PIIX4 ISA (rev 02)
+    Flags: bus master, medium devsel, latency 0
+
+00:04.1 IDE interface:
+    Intel Corporation 82371AB/EB/MB PIIX4 IDE (rev 01)
+        (prog-if 80 [Master])
+    Flags: bus master, medium devsel, latency 32
+    [virtual] Memory at 000001f0 (32-bit, non-prefetchable) [size=8]
+    [virtual] Memory at 000003f0 (type 3, non-prefetchable) [size=1]
+    [virtual] Memory at 00000170 (32-bit, non-prefetchable) [size=8]
+    [virtual] Memory at 00000370 (type 3, non-prefetchable) [size=1]
+    I/O ports at 1050 [size=16]
+    Kernel driver in use: ata_piix
+    Kernel modules: ata_piix
+
+00:04.2 USB controller:
+    Intel Corporation 82371AB/EB/MB PIIX4 USB (rev 01)
+        (prog-if 00 [UHCI])
+    Flags: bus master, medium devsel, latency 32, IRQ 19
+    I/O ports at 1060 [size=32]
+    Kernel driver in use: uhci_hcd
+    Kernel modules: uhci-hcd
+
+00:04.3 Bridge:
+    Intel Corporation 82371AB/EB/MB PIIX4 ACPI (rev 02)
+    Flags: medium devsel, IRQ 9
+
+00:07.0 PCI bridge:
+    Digital Equipment Corporation DECchip 21152 (rev 03)
+        (prog-if 00 [Normal decode])
+    Flags: bus master, medium devsel, latency 57
+    Bus: primary=00, secondary=01, subordinate=01, sec-latency=249
+    I/O behind bridge: 00009000-00009fff
+    Memory behind bridge: fa200000-fa2fffff
+    Capabilities: [dc] Power Management version 1
+
+00:09.0 Ethernet controller:
+    Intel Corporation 82557/8/9/0/1 Ethernet Pro 100 (rev 08)
+    Subsystem: Hewlett-Packard Company NetServer 10/100TX
+    Flags: bus master, medium devsel, latency 66, IRQ 17
+    Memory at fa100000 (32-bit, non-prefetchable) [size=4K]
+    I/O ports at 1000 [size=64]
+    Memory at fa000000 (32-bit, non-prefetchable) [size=1M]
+    Capabilities: [dc] Power Management version 2
+    Kernel driver in use: e100
+    Kernel modules: e100
+
+00:0d.0 VGA compatible controller:
+    Cirrus Logic GD 5446 (rev 45) (prog-if 00 [VGA controller])
+    Subsystem: Hewlett-Packard Company Device 0001
+    Flags: medium devsel
+    Memory at fc000000 (32-bit, prefetchable) [size=32M]
+    Memory at fa101000 (32-bit, non-prefetchable) [size=4K]
+    [virtual] Expansion ROM at 40000000 [disabled] [size=32K]
+
+01:04.0 SCSI storage controller:
+    LSI Logic / Symbios Logic 53c895 (rev 01)
+    Flags: bus master, medium devsel, latency 247, IRQ 18
+    I/O ports at 9000 [size=256]
+    Memory at fa201000 (32-bit, non-prefetchable) [size=256]
+    Memory at fa200000 (32-bit, non-prefetchable) [size=4K]
+    Kernel driver in use: sym53c8xx
+    Kernel modules: sym53c8xx
+\end{verbatim}
+
+\section{Servicios instalados}
+El servidor posee instalados los siguientes demonios:
+
+\begin{itemize}
+\item EngineX como servidor web.
+\item OpenSSH para acceso remoto.
+\item PHP-FPM para acceso FastCGI de PHP.
+\item Exim4 para servicios de correo electronico.
+\end{itemize}
+
+Se ha instalado Cacti para realizar la monitorizacion de los servicios de la
+sociedad cientifica, ademas de ser utilizada como repositorio de copias de
+respaldo de algunos servicios (bases de datos y logs de acceso principalmente)
+en otros servidores.
+
+\section{Inconvenientes encontrados}
+Desde el inicio del trabajo con el servidor, se ha encontrado un problema que no
+ha podido ser subsanado, es que al iniciar la maquina, esta presenta un error
+en la administración de memoria, y debe de presionarse la tecla F1 para arrancar
+normalmente el sistema, lo cual no fue un gran inconveniente hasta que se hizo
+la puesta en producción del servidor.
+
+Se noto que en la sala de servidores del FCyT es comun que se corte la luz, para
+lo cual debe arrancarse nuevamente el sistema, y considerandose los
+inconvenientes que posee la maquina, se lleva a tener la maquina con una
+intermitencia inaceptable para los servicios a los que fue destinada
+(monitorizacion).
+
+\end{document}
